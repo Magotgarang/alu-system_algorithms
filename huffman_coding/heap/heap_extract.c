@@ -60,7 +60,7 @@ void *heapExtract(binary_tree_node_t **root,
     if (!root || !data_cmp)
         return (NULL);
 
-    last = lastInLevelOrder(*root);  // lastInLevelOrder is called here
+    last = lastInLevelOrder(*root);  /* lastInLevelOrder is called here */
     if (!last)
         return (NULL);
 
